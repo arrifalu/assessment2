@@ -1,3 +1,20 @@
 <resources>
-    <string name="app_name">FoodieFiends</string>
+    <string name="app_name">Foodie Fiends</string>
+    <string name="x_diklik">%1$s diklik!</string>\
+    <string name="tambah_menu">Tambah Menu</string>
+    <string name="kembali">Kembali</string>
+    <string name="simpan">Simpan</string>
+    <string name="edit_menu">Ubah Menu</string>
+    <string name="invalid">Menu, kategori dan deskripsi tidak boleh kosong.</string>
+    <string name="lainnya">Opsi lainnya</string>
+    <string name="hapus">Hapus data</string>
+    <string name="pesan_hapus"> Hapus Menu ini?</string>
+    <string name="tombol_hapus">Hapus</string>
+    <string name="tombol_batal">Batal</string>
+    <string name="list">Tampilan list</string>
+    <string name="grid">Tampilan Grid</string>
+    <string name="isi_deskripsi">Isi deskripsi</string>
+    <string name="nama_menu">Nama Menu</string>
+    <string name="list_kosong">Data kosong</string>
+
 </resources>
