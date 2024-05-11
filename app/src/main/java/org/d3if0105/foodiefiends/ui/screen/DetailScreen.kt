@@ -3,8 +3,10 @@ import android.widget.Toast
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -205,7 +207,11 @@ fun FormFoodie(
                     capitalization = KeyboardCapitalization.Words,
                     imeAction = ImeAction.Next
                 ),
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier
+                    .fillMaxWidth(),
+
+
+
 
                 )
             OutlinedCard(
@@ -232,11 +238,14 @@ fun FormFoodie(
                             )
 
                         }
+                        Spacer(modifier = Modifier.height(12.dp))
+
                     }
                 }
                 OutlinedTextField(
                     value = desc,
                     onValueChange = { onDesChange(it) },
+                    label = { Text(text = stringResource(R.string.tulis_resep)) },
                     singleLine = true,
                     keyboardOptions = KeyboardOptions(
                         capitalization = KeyboardCapitalization.Words,

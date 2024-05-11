@@ -16,5 +16,6 @@
     <string name="isi_deskripsi">Isi deskripsi</string>
     <string name="nama_menu">Nama Menu</string>
     <string name="list_kosong">Data kosong</string>
+    <string name="deskripsi_menu">Tulis deskripsi menu </string>
 
 </resources>
