@@ -245,7 +245,7 @@ fun FormFoodie(
                 OutlinedTextField(
                     value = desc,
                     onValueChange = { onDesChange(it) },
-                    label = { Text(text = stringResource(R.string.tulis_resep)) },
+                    label = { Text(text = stringResource(R.string.deskripsi_menu)) },
                     singleLine = true,
                     keyboardOptions = KeyboardOptions(
                         capitalization = KeyboardCapitalization.Words,
